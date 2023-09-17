@@ -1,0 +1,48 @@
+div{
+    text-align: center;
+}
+body{
+    background-color:rgb(90, 142, 181);
+}
+li,ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/* selector avanzado: padre > hijo */
+.navbar > li{
+    width:170px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 1px;
+    border-radius: 10px;
+    background-color: rgb(216, 255, 211);
+    padding-block:2px;
+    cursor: pointer;
+}
+
+/* barra de navegacion */
+.navbar > li:hover{
+    background-color:rgb(176, 247, 118);
+    padding: 10px;
+    border-radius: 8px;
+    border: 4px rgb(45, 119, 23);
+    width: 200;
+    transition-duration: 0.3s;
+}
+
+.navbar > li:hover{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

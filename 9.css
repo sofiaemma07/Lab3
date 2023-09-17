@@ -1,0 +1,47 @@
+div{
+    text-align: center;
+}
+body{
+    background-color:rgb(199, 234, 248);
+}
+li,ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* selector avanzado: padre > hijo */
+.navbar > li{
+    width:250px;
+    border: 2px solid rgb(164, 180, 221);
+    margin: 1px;
+    border-radius: 10px;
+    background-color: rgb(193, 210, 255);
+    padding-block:2px;
+    cursor: pointer;
+}
+
+/* barra de navegacion */
+.navbar > li:hover{
+    background-color:rgb(169, 171, 255);
+    padding: 15px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-color:rgb(118, 131, 206);
+    transition-duration: 0.3s;
+}
+
+.navbar > li:hover{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(46, 52, 77);
+}

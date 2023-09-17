@@ -1,0 +1,47 @@
+div{
+    text-align: center;
+}
+body{
+    background-color:rgb(255, 122, 45);
+}
+li,ul{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/* selector avanzado: padre > hijo */
+.navbar > li{
+    width:250px;
+    border: 2px solid rgb(117, 39, 39);
+    margin: 1px;
+    border-radius: 10px;
+    background-color: rgb(255, 190, 152);
+    padding-block:2px;
+    cursor: pointer;
+}
+
+/* barra de navegacion */
+.navbar > li:hover{
+    background-color:rgb(255, 223, 204);
+    padding: 15px;
+    border-radius: 8px;
+    border: 4px rgb(100, 52, 33);
+    transition-duration: 0.3s;
+}
+
+.navbar > li:hover{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
