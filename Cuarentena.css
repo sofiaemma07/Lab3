@@ -8,7 +8,9 @@ li,ul{
     list-style: none;
     padding-inline-start: 0px;
     }
-
+footer{
+    font-family: 'Courier New', Courier, monospace;
+}
 .navbar{
     display: flex;
     flex-direction: row;
